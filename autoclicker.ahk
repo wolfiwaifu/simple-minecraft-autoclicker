@@ -4,7 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 R::
-    SetTimer, Click, 80  ; 87 miliseconds is about 14 clicks per second
+    SetTimer, Click, 87  ; 87 miliseconds is about 14 clicks per second
     return
 
 Y::
